@@ -2,12 +2,13 @@ package com.luisenricke
 
 import grails.boot.GrailsApp
 import grails.boot.config.GrailsAutoConfiguration
+import grails.compiler.GrailsCompileStatic
 
-import groovy.transform.CompileStatic
-
-@CompileStatic
+@GrailsCompileStatic
 class Application extends GrailsAutoConfiguration {
+
     static void main(String[] args) {
         GrailsApp.run(Application, args)
     }
+
 }
