@@ -1,0 +1,7 @@
+import com.luisenricke.returnData.SimpleReturnObject
+
+model {
+	SimpleReturnObject simpleReturnObject
+}
+
+json tmpl.simpleReturnObject(simpleReturnObject)

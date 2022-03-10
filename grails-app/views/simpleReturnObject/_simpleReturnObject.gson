@@ -1,0 +1,7 @@
+import com.luisenricke.returnData.SimpleReturnObject
+
+model {
+	SimpleReturnObject simpleReturnObject
+}
+
+json g.render(simpleReturnObject, [resolveTemplate: false])
